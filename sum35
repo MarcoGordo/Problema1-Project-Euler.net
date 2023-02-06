@@ -1,0 +1,17 @@
+
+#!/usr/bin/env/ python3
+
+print("Introduzca un número maximo:")
+tope = int(input())
+suma = 0
+numero = 0
+
+while(numero < tope):
+
+  if(numero % 3 ==0 or numero % 5 == 0):
+    suma += numero
+    numero += 1
+  else:
+    numero += 1
+
+print(suma)
